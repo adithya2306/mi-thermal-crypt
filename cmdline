@@ -1,0 +1,8 @@
+version "0.1"
+package "mi-thermal-crypt"
+purpose "Encrypt/decrypt mi_thermald configs"
+
+# Options
+option "infile" i "Input filename" string required
+option "outfile" o "Output filename" string required
+option "encrypt" e "Encrypt input plain text file to output file" flag off

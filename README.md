@@ -20,5 +20,6 @@ To compile it yourself:
 gcc mi-thermal-crypt.c cmdline.c -o mi-thermal-crypt -lssl -lcrypto
 ```
 
-### TODO
-- Convert to Python or something
+### Python version
+
+Created by another developer: https://github.com/aufarakha/mi-thermal-py-crypt/
